@@ -1,0 +1,10 @@
+.register-section{
+    background-image: url('../../../images/login.jpg');
+    background-color: rgba(165, 42, 42, 0.26);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    padding: 80px 0;
+    height: 100vh;
+}

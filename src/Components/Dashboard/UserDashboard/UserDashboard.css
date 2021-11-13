@@ -1,0 +1,47 @@
+.dashboard-navigation{
+    background: #9c0e15;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+ul,ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    cursor: pointer;
+    padding: 10px 20px;
+}
+li:hover{
+    background: #7c0309;
+}
+li .link-nav{
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+    
+}
+@media (max-width: 575.98px){
+    li .link-nav{
+        display: block;
+        padding: 0;
+    }
+    li{
+        cursor: pointer;
+        padding: 0;
+    }
+}

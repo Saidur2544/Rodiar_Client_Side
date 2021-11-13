@@ -1,0 +1,10 @@
+.review{
+    background-image: url('../../../images/review-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0 60px 0 ;
+    background-color: rgba(0, 0, 0, 0.233);
+    background-blend-mode: overlay;
+}

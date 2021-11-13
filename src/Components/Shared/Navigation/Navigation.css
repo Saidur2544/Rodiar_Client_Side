@@ -1,0 +1,21 @@
+.navitem{
+    color: #ac1717;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 5px;
+    transition: all .3s linear;
+}
+.navitem:hover{
+    background-color: rgb(241, 116, 116);
+    color: #fff;
+    border-radius: 5px;
+}
+.nameofUser {
+	padding: 5px 10px;
+	border: 2px solid rgb(116, 2, 2);
+	color: rgb(36, 34, 34);
+	border-radius: 50%;
+}
