@@ -13,7 +13,7 @@ const Shop = () => {
             .then(res => res.json())
             .then(result => setProducts(result))
     }, [])
-    
+    // git hocche
     return (
         <div>
             <Navigation></Navigation>
